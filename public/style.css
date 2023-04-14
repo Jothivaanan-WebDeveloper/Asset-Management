@@ -1,0 +1,27 @@
+input[type=file]::file-selector-button {
+    background: none;
+    border: 1px dashed #6870FA;
+    border-radius: 5px; 
+    padding: 8px 10px; 
+    color: #6870FA;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+}
+
+input[type=file]::file-selector-button:hover {
+    color: #6870FA;
+    background:rgb(242, 244, 244);
+}
+
+button {
+    text-transform: capitalize !important;
+}
+
+.iconAccent {
+    color: #FF8A00;
+}
+
+.buttonAccent {
+    background-color: #30325E;
+}
+
